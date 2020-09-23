@@ -1,0 +1,46 @@
+.app{
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    background-color: white;
+    height: 500px;
+}
+.menu{
+    height: 10%;
+    left: 60%;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    display: inline-block;
+    list-style:none; 
+    padding:20px 20px;
+    margin-bottom:10px;
+    font-size:15px;
+    
+   
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.content{
+    width: 80%;
+    margin: 0 auto;
+    margin: 40px;
+    font-size: 16px;
+}
+.content label{
+    display: block;
+    margin: 20px;
+}
+.content label input{
+    margin-left: 20px;
+}
+
+.content label select{
+    margin-left: 50px;
+}
