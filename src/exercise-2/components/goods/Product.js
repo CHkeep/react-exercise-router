@@ -5,9 +5,6 @@ class  Product extends React.Component{
   
   render() {
    const id = this.props.match.params.id;
-   debugger
-   console.log("product");
-   console.log(product);
     const search = {
       1:'bicycle',
       2:'TV',
