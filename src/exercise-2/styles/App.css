@@ -11,24 +11,26 @@
     background-color: gray;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 100px;
 }
 ul li{
-    display: inline-block;
     list-style:none; 
     padding:20px 20px;
     margin-bottom:10px;
-    font-size:15px;
-    
+    font-size:15px;   
    
 }
 ul li a{
     text-decoration: none;
-    color: black;
-    
+    color: black;    
 }
-ul li:first-child{
-    margin-left: 400px;
+
+ul li a:hover{
+    text-decoration: underline;   
 }
+
 
 .content{
     width: 80%;
@@ -46,4 +48,7 @@ ul li:first-child{
 
 .content label select{
     margin-left: 50px;
+}
+.products a{
+    display: block;
 }

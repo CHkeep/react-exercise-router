@@ -11,7 +11,7 @@ class About extends React.Component {
           <div>
             For more information,please
             <br/>
-            view pur <Link  to='/home'>website</Link>
+            view pur <Link  to='/'>website</Link>
         </div>
       </div>
       
